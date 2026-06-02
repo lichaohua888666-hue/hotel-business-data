@@ -1,0 +1,38 @@
+# Compliant collection defaults for authorised Ctrip data access.
+city: 重庆
+city_scope: 主城
+districts:
+  - 渝中区
+  - 江北区
+  - 渝北区
+  - 南岸区
+  - 沙坪坝区
+  - 九龙坡区
+  - 大渡口区
+  - 巴南区
+  - 北碚区
+diamond_level: 3
+pages: 1
+rate_limit:
+  delay_seconds: 2.0
+  max_requests_per_minute: 30
+compliance:
+  prefer_authorized_api: true
+  respect_terms_of_service: true
+  respect_robots_txt: true
+  robots_url: https://www.ctrip.com/robots.txt
+  user_agent: hotel-business-data/1.0 (+contact@example.com)
+output:
+  csv: data/chongqing_ctrip_3diamond_hotels.csv
+  xlsx: data/chongqing_ctrip_3diamond_hotels.xlsx
+fields:
+  - 酒店名称
+  - 区域
+  - 所在楼栋名称
+  - 开业时间
+  - 最近装修时间
+  - 钻级
+  - 房间数
+  - 评价数
+  - 评分
+  - 卖价
