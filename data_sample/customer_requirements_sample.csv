@@ -1,6 +1,6 @@
-customer_id,target_city,preferred_districts,preferred_business_areas,min_rooms,max_rooms,max_budget,required_business_tags
-C001,上海,浦东新区;黄浦区,陆家嘴;人民广场,80,160,5800000,核心商圈;中高端
-C002,杭州,西湖区;上城区,西湖;湖滨,40,90,2600000,文旅客源;轻改造
-C003,成都,锦江区;武侯区,春熙路;太古里,60,130,3800000,核心商圈;现金流稳定
-C004,深圳,南山区;福田区,科技园;车公庙,100,220,8000000,商务客源;可续签
-C005,南京,秦淮区;玄武区,新街口;夫子庙,50,120,3200000,文旅客源;证照清晰
+customer_id,preferred_city,preferred_districts,preferred_business_areas,min_budget,max_budget,min_room_count,max_room_count,max_single_room_rent_cost,accepts_transfer_fee,max_transfer_fee,accepts_unknown_license_risk,accepts_medium_commission_risk,current_stage,next_action
+C001,重庆,渝中区;江北区,解放碑;观音桥,2500000,6200000,80,130,95,是,3500000,否,否,已明确需求,优先推核心商圈且证照清晰项目
+C002,重庆,南岸区;九龙坡区,南坪;杨家坪,800000,2800000,55,95,80,是,900000,是,是,预算复核中,先筛低转让费和押付压力低项目
+C003,重庆,渝北区;江北区,汽博中心;观音桥,2000000,5200000,90,150,90,是,2800000,否,是,准备首轮看店,匹配商务客源和营业中项目
+C004,重庆,沙坪坝区;渝中区,大学城;解放碑,1000000,4500000,120,180,75,否,0,是,否,寻找直租机会,重点看无转让费但需办证评估项目
+C005,重庆,渝中区;南岸区;江北区,解放碑;南坪;观音桥,3000000,7000000,70,120,100,是,2500000,否,否,待尽调清单,只推进业主和佣金均锁定项目
