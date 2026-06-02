@@ -1,6 +1,6 @@
-project_id,hotel_name,city,country,star_rating,room_count,meeting_space_sqm,amenities,average_daily_rate_usd
-P001,Harbor View Hotel,San Francisco,USA,4,220,850,"wifi;gym;restaurant;meeting_rooms",245
-P002,Mountain Lodge,Denver,USA,3,120,300,"wifi;parking;breakfast",160
-P003,Grand Convention Resort,Las Vegas,USA,5,950,5000,"wifi;spa;pool;casino;meeting_rooms;ballroom",310
-P004,Beachside Suites,Miami,USA,4,180,450,"wifi;pool;beach_access;kitchenette",220
-P005,Airport Business Inn,Chicago,USA,3,260,700,"wifi;airport_shuttle;meeting_rooms;restaurant",135
+project_id,project_name,city,district,business_area,hotel_type,room_count,monthly_rent,transfer_fee,rent_payment_terms,amenities,meeting_space_sqm,lease_years_remaining,can_renew_contract,landlord_written_consent,license_transferable,fire_safety_clear,special_license_clear,hidden_debt_risk,employee_settlement_risk,commission_clause_locked
+P001,Shanghai Pudong Business Hotel,Shanghai,Pudong,Lujiazui,business,118,420000,2900000,押2付3,"wifi;meeting_rooms;restaurant;laundry",180,5.0,yes,yes,yes,yes,yes,no,low,yes
+P002,Hangzhou West Lake Boutique Hotel,Hangzhou,Xihu,West Lake,boutique,58,180000,1300000,押1付3,"wifi;parking;breakfast",40,2.4,unclear,yes,unclear,yes,unclear,no,medium,no
+P003,Chengdu Chunxi Road Upper Midscale Hotel,Chengdu,Jinjiang,Chunxi Road,upper_midscale,168,360000,4300000,押3付6,"wifi;meeting_rooms;restaurant;gym",260,6.0,yes,no,yes,unclear,yes,yes,high,yes
+P004,Shenzhen Science Park Limited Service Hotel,Shenzhen,Nanshan,Science Park,limited_service,96,310000,2100000,押2付3,"wifi;laundry;parking",100,4.2,yes,yes,yes,yes,unclear,no,low,no
+P005,Shanghai People Square Conversion Hotel,Shanghai,Huangpu,People Square,midscale,142,510000,2500000,押3付6,"wifi;meeting_rooms;restaurant",130,2.8,yes,yes,yes,unclear,yes,no,medium,yes

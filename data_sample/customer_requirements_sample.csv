@@ -1,6 +1,5 @@
-customer_id,customer_name,target_city,min_star_rating,min_rooms,needs_meeting_space_sqm,required_amenities,max_average_daily_rate_usd
-C001,Acme Annual Sales Summit,Las Vegas,4,500,3000,"wifi;meeting_rooms",350
-C002,Northwind Regional Training,Chicago,3,150,500,"wifi;airport_shuttle",180
-C003,Contoso Executive Retreat,Miami,4,100,200,"wifi;pool",260
-C004,Globex Engineering Offsite,Denver,3,80,250,"wifi;parking",190
-C005,Initech Leadership Meeting,San Francisco,4,150,600,"wifi;meeting_rooms",275
+customer_id,target_city,target_districts,target_business_areas,min_rooms,max_rooms,preferred_hotel_types,max_budget,required_amenities,needs_meeting_space_sqm,risk_tolerance
+C001,Shanghai,"Pudong;Huangpu","Lujiazui;People Square",80,160,"business;midscale",5500000,"wifi;meeting_rooms",120,medium
+C002,Hangzhou,"Xihu;Shangcheng","West Lake;Wulin",40,90,"boutique;limited_service",2600000,"wifi;parking",0,low
+C003,Chengdu,"Jinjiang;Wuhou","Chunxi Road;Financial City",100,220,"business;upper_midscale",7200000,"wifi;meeting_rooms;restaurant",200,medium
+C004,Shenzhen,"Nanshan;Futian","Science Park;Convention Center",60,130,"business;limited_service",4300000,"wifi;laundry",80,high
