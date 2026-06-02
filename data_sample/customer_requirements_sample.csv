@@ -1,6 +1,6 @@
-customer_id,customer_name,target_city,min_star_rating,min_rooms,needs_meeting_space_sqm,required_amenities,max_average_daily_rate_usd
-C001,Acme Annual Sales Summit,Las Vegas,4,500,3000,"wifi;meeting_rooms",350
-C002,Northwind Regional Training,Chicago,3,150,500,"wifi;airport_shuttle",180
-C003,Contoso Executive Retreat,Miami,4,100,200,"wifi;pool",260
-C004,Globex Engineering Offsite,Denver,3,80,250,"wifi;parking",190
-C005,Initech Leadership Meeting,San Francisco,4,150,600,"wifi;meeting_rooms",275
+customer_id,target_city,preferred_districts,preferred_business_areas,min_rooms,max_rooms,max_budget,required_business_tags
+C001,上海,浦东新区;黄浦区,陆家嘴;人民广场,80,160,5800000,核心商圈;中高端
+C002,杭州,西湖区;上城区,西湖;湖滨,40,90,2600000,文旅客源;轻改造
+C003,成都,锦江区;武侯区,春熙路;太古里,60,130,3800000,核心商圈;现金流稳定
+C004,深圳,南山区;福田区,科技园;车公庙,100,220,8000000,商务客源;可续签
+C005,南京,秦淮区;玄武区,新街口;夫子庙,50,120,3200000,文旅客源;证照清晰
