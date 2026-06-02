@@ -1,0 +1,4 @@
+booking_id,hotel_code,stay_month,room_nights,room_revenue_usd,channel,market_segment
+SYN-0001,HOTEL-DEMO-01,2026-01,2,320.00,direct,leisure
+SYN-0002,HOTEL-DEMO-01,2026-01,1,145.50,ota,business
+SYN-0003,HOTEL-DEMO-02,2026-02,3,510.00,direct,group

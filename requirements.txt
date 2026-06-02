@@ -1,0 +1,2 @@
+# Minimal Codex cloud environment check uses only the Python standard library.
+# Add vetted hotel data processing packages (for example pandas/openpyxl) when network/package access is available.
