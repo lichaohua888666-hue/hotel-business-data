@@ -1,0 +1,6 @@
+customer_id,customer_name,target_city,min_star_rating,min_rooms,needs_meeting_space_sqm,required_amenities,max_average_daily_rate_usd
+C001,Acme Annual Sales Summit,Las Vegas,4,500,3000,"wifi;meeting_rooms",350
+C002,Northwind Regional Training,Chicago,3,150,500,"wifi;airport_shuttle",180
+C003,Contoso Executive Retreat,Miami,4,100,200,"wifi;pool",260
+C004,Globex Engineering Offsite,Denver,3,80,250,"wifi;parking",190
+C005,Initech Leadership Meeting,San Francisco,4,150,600,"wifi;meeting_rooms",275
