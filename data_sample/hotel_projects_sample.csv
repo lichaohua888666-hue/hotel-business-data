@@ -1,0 +1,5 @@
+project_id,project_name,city,district,business_area,area_sqm,monthly_rent,monthly_property_fee,room_count,bright_room_count,dark_room_count,transfer_fee,contract_years,rent_payment_terms,is_operating,license_status,fire_safety_status,special_industry_license_status,landlord_written_consent,commission_risk,current_stage,next_action
+HP-SAMPLE-001,示例酒店项目A,上海,浦东新区,陆家嘴周边,850,78000,6000,88,72,16,300000,8,押二付三,是,齐全,通过,齐全,是,低,初筛通过,复核租赁合同与消防验收材料
+HP-SAMPLE-002,示例酒店项目B,杭州,西湖区,文教商圈,620,69000,4500,46,35,11,180000,6,押三付三,否,不明,不明,办理中,是,中,资料补充,要求业主补充证照消防文件
+HP-SAMPLE-003,示例酒店项目C,成都,锦江区,春熙路周边,1200,138000,12000,95,80,15,500000,10,押二付六,是,齐全,通过,齐全,是,低,尽调中,安排现场复勘并测算改造预算
+HP-SAMPLE-004,示例酒店项目D,广州,天河区,体育中心周边,700,105000,8000,54,42,12,420000,5,押三付一,是,齐全,不明,不明,否,高,待评估,确认业主书面同意并澄清佣金风险
