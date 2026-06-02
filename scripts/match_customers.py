@@ -136,6 +136,7 @@ def match_customers(
     customers: Iterable[CustomerRequirement], projects: Iterable[HotelProject]
 ) -> list[MatchResult]:
     """Return ranked customer-to-project matches."""
+    projects = list(projects)
     results = [
         result
         for customer in customers
@@ -152,13 +153,24 @@ def match_customers(
     )
 
 
+def matched_customer_ids(results: Iterable[MatchResult]) -> set[str]:
+    """Return customer IDs that received at least one project match."""
+    return {result.customer.customer_id for result in results}
+
+
 def main() -> None:
     projects = load_projects()
     customers = load_customers()
-    results = match_customers(customers, projects)
+    results = match_customers(customers, iter(projects))
+    matched_ids = matched_customer_ids(results)
 
     print(f"Loaded {len(projects)} hotel projects from {PROJECTS_CSV.relative_to(ROOT_DIR)}")
     print(f"Loaded {len(customers)} customer requirements from {CUSTOMERS_CSV.relative_to(ROOT_DIR)}")
+    print(
+        "Iterator reuse verification: "
+        f"{len(matched_ids)} customer(s) matched after passing projects as a one-time iterator "
+        f"({', '.join(sorted(matched_ids)) or 'none'})."
+    )
     print("\nCustomer matches:")
 
     if not results:
