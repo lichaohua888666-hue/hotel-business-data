@@ -136,10 +136,13 @@ def match_customers(
     customers: Iterable[CustomerRequirement], projects: Iterable[HotelProject]
 ) -> list[MatchResult]:
     """Return ranked customer-to-project matches."""
+    customers_list = list(customers)
+    projects_list = list(projects)
+
     results = [
         result
-        for customer in customers
-        for project in projects
+        for customer in customers_list
+        for project in projects_list
         if (result := score_match(customer, project)) is not None
     ]
     return sorted(
@@ -152,7 +155,33 @@ def match_customers(
     )
 
 
+def validate_projects_iterator_support() -> None:
+    """Verify one-shot project iterators are reusable across multiple customers."""
+    customers = load_customers()
+    projects = load_projects()
+
+    expected_pairs = [
+        (result.customer.customer_id, result.project.project_id)
+        for result in match_customers(customers, projects)
+    ]
+    iterator_pairs = [
+        (result.customer.customer_id, result.project.project_id)
+        for result in match_customers(customers, iter(load_projects()))
+    ]
+
+    if len(customers) < 2:
+        raise AssertionError("iterator validation requires multiple customers")
+
+    if iterator_pairs != expected_pairs:
+        raise AssertionError(
+            "projects iterator produced incomplete matches: "
+            f"expected {expected_pairs}, got {iterator_pairs}"
+        )
+
+
 def main() -> None:
+    validate_projects_iterator_support()
+
     projects = load_projects()
     customers = load_customers()
     results = match_customers(customers, projects)
