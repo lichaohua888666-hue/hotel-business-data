@@ -1,0 +1,6 @@
+project_id,hotel_name,city,country,star_rating,room_count,meeting_space_sqm,amenities,average_daily_rate_usd
+P001,Harbor View Hotel,San Francisco,USA,4,220,850,"wifi;gym;restaurant;meeting_rooms",245
+P002,Mountain Lodge,Denver,USA,3,120,300,"wifi;parking;breakfast",160
+P003,Grand Convention Resort,Las Vegas,USA,5,950,5000,"wifi;spa;pool;casino;meeting_rooms;ballroom",310
+P004,Beachside Suites,Miami,USA,4,180,450,"wifi;pool;beach_access;kitchenette",220
+P005,Airport Business Inn,Chicago,USA,3,260,700,"wifi;airport_shuttle;meeting_rooms;restaurant",135
