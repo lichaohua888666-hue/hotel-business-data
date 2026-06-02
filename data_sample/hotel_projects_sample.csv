@@ -1,6 +1,7 @@
-project_id,hotel_name,city,country,star_rating,room_count,meeting_space_sqm,amenities,average_daily_rate_usd
-P001,Harbor View Hotel,San Francisco,USA,4,220,850,"wifi;gym;restaurant;meeting_rooms",245
-P002,Mountain Lodge,Denver,USA,3,120,300,"wifi;parking;breakfast",160
-P003,Grand Convention Resort,Las Vegas,USA,5,950,5000,"wifi;spa;pool;casino;meeting_rooms;ballroom",310
-P004,Beachside Suites,Miami,USA,4,180,450,"wifi;pool;beach_access;kitchenette",220
-P005,Airport Business Inn,Chicago,USA,3,260,700,"wifi;airport_shuttle;meeting_rooms;restaurant",135
+project_id,hotel_name,city,district,business_area,room_count,transfer_fee,monthly_rent,rent_payment_terms,business_tags,lease_years_remaining,can_renew_contract,landlord_written_consent,license_transferable,fire_safety_clear,special_license_clear,hidden_debt_risk,employee_settlement_risk,commission_clause_locked
+P001,脱敏城市精品酒店A,上海,浦东新区,陆家嘴,118,3600000,280000,押2付3,核心商圈;中高端;商务客源,5.5,是,是,是,是,是,否,低,是
+P002,脱敏文旅酒店B,杭州,西湖区,西湖,72,1800000,160000,押3付6,文旅客源;轻改造,2.4,待确认,是,待确认,是,待确认,否,中,否
+P003,脱敏商圈酒店C,成都,锦江区,春熙路,96,2500000,210000,押1付3,核心商圈;现金流稳定,4.0,是,否,是,待确认,是,否,低,是
+P004,脱敏商务酒店D,深圳,南山区,科技园,168,6200000,420000,押3付6,商务客源;可续签;中高端,6.0,是,是,是,是,是,否,低,待确认
+P005,脱敏文旅酒店E,南京,秦淮区,夫子庙,86,2100000,190000,押2付3,文旅客源;证照清晰,3.2,是,是,是,待确认,待确认,是,高,否
+P006,脱敏存量酒店F,上海,黄浦区,人民广场,145,4300000,360000,押1付6,核心商圈;中高端,2.8,否,待确认,待确认,待确认,待确认,待确认,高,否
