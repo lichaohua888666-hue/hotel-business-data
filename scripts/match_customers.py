@@ -136,12 +136,25 @@ def match_customers(
     customers: Iterable[CustomerRequirement], projects: Iterable[HotelProject]
 ) -> list[MatchResult]:
     """Return ranked customer-to-project matches."""
-    results = [
-        result
-        for customer in customers
-        for project in projects
-        if (result := score_match(customer, project)) is not None
-    ]
+    projects_list = list(projects)
+    customers_list = list(customers)
+
+    results: list[MatchResult] = []
+    compared_pairs = 0
+    for customer in customers_list:
+        for project in projects_list:
+            compared_pairs += 1
+            result = score_match(customer, project)
+            if result is not None:
+                results.append(result)
+
+    expected_pairs = len(customers_list) * len(projects_list)
+    if compared_pairs != expected_pairs:
+        raise RuntimeError(
+            "Customer matching did not compare every customer against every project: "
+            f"compared {compared_pairs} pairs, expected {expected_pairs}."
+        )
+
     return sorted(
         results,
         key=lambda result: (
