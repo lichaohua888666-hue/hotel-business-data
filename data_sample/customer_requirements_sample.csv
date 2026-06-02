@@ -1,0 +1,5 @@
+customer_id,preferred_city,preferred_districts,preferred_business_areas,min_budget,max_budget,min_room_count,max_room_count,max_single_room_rent_cost,accepts_transfer_fee,max_transfer_fee,accepts_unknown_license_risk,accepts_medium_commission_risk,current_stage,next_action
+CUS-001,Shanghai,Pudong;Huangpu,Lujiazui;People_Square,0,300000,50,90,2800,yes,100000,no,no,initial_screening,share_shortlist
+CUS-002,Hangzhou,Xihu;Shangcheng,Wensan;Qianjiang,0,120000,40,80,2000,yes,80000,yes,yes,requirement_confirmed,arrange_remote_review
+CUS-003,Chengdu,Jinjiang;Wuhou,Chunxi_Road;Financial_City,0,180000,80,120,1700,no,0,no,yes,site_visit_planning,confirm_no_transfer_fee_options
+CUS-004,Shanghai,Minhang;Pudong,Hongqiao;Zhangjiang,0,350000,90,140,2300,yes,250000,yes,no,risk_review,prepare_alternative_projects

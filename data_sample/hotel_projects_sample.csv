@@ -1,0 +1,6 @@
+project_id,city,district,business_area,room_count,single_room_rent_cost,transfer_fee,license_status,commission_risk,current_status,suggested_next_action
+PJT-001,Shanghai,Pudong,Lujiazui,86,2600,0,clear,low,available,arrange_site_visit
+PJT-002,Shanghai,Huangpu,People_Square,52,3100,180000,clear,medium,available,confirm_transfer_fee_terms
+PJT-003,Hangzhou,Xihu,Wensan,68,1800,60000,unknown,low,available,verify_license_documents
+PJT-004,Chengdu,Jinjiang,Chunxi_Road,105,1500,120000,clear,medium,available,negotiate_transfer_fee
+PJT-005,Shanghai,Minhang,Hongqiao,120,2200,300000,unknown,medium,available,complete_risk_review
