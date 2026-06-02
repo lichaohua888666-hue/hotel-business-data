@@ -1,7 +1,7 @@
-project_id,hotel_name,city,district,business_area,room_count,transfer_fee,monthly_rent,rent_payment_terms,business_tags,lease_years_remaining,can_renew_contract,landlord_written_consent,license_transferable,fire_safety_clear,special_license_clear,hidden_debt_risk,employee_settlement_risk,commission_clause_locked
-P001,脱敏城市精品酒店A,上海,浦东新区,陆家嘴,118,3600000,280000,押2付3,核心商圈;中高端;商务客源,5.5,是,是,是,是,是,否,低,是
-P002,脱敏文旅酒店B,杭州,西湖区,西湖,72,1800000,160000,押3付6,文旅客源;轻改造,2.4,待确认,是,待确认,是,待确认,否,中,否
-P003,脱敏商圈酒店C,成都,锦江区,春熙路,96,2500000,210000,押1付3,核心商圈;现金流稳定,4.0,是,否,是,待确认,是,否,低,是
-P004,脱敏商务酒店D,深圳,南山区,科技园,168,6200000,420000,押3付6,商务客源;可续签;中高端,6.0,是,是,是,是,是,否,低,待确认
-P005,脱敏文旅酒店E,南京,秦淮区,夫子庙,86,2100000,190000,押2付3,文旅客源;证照清晰,3.2,是,是,是,待确认,待确认,是,高,否
-P006,脱敏存量酒店F,上海,黄浦区,人民广场,145,4300000,360000,押1付6,核心商圈;中高端,2.8,否,待确认,待确认,待确认,待确认,待确认,高,否
+project_id,project_name,city,district,business_area,area_sqm,monthly_rent,monthly_property_fee,room_count,bright_room_count,dark_room_count,transfer_fee,contract_years,lease_years_remaining,rent_payment_terms,is_operating,license_status,fire_safety_status,special_industry_license_status,landlord_written_consent,commission_clause_locked,current_stage,next_action
+P001,脱敏重庆解放碑存量酒店A,重庆,渝中区,解放碑,4200,260000,18000,112,98,14,3200000,8,5.5,押2付3,是,齐全,合格,齐全,是,是,已约初勘,复核租约原件和近6个月经营流水
+P002,脱敏重庆观音桥公寓酒店B,重庆,江北区,观音桥,2600,185000,12000,76,68,8,1200000,5,2.4,押3付6,是,不明,合格,不明,是,否,资料收集中,补证照清单并重谈佣金条款
+P003,脱敏重庆南坪轻改造酒店C,重庆,南岸区,南坪,3100,168000,9000,88,72,16,800000,6,4.2,押2付3,否,齐全,不明,齐全,否,是,待业主确认,取得业主书面同意后再组织复勘
+P004,脱敏重庆大学城筹开酒店D,重庆,沙坪坝区,大学城,5200,310000,22000,156,130,26,0,10,7.0,押1付6,否,不明,不明,不明,是,否,业主直租洽谈,核验办证可行性并锁定居间条款
+P005,脱敏重庆汽博中心商务酒店E,重庆,渝北区,汽博中心,3800,230000,15000,105,94,11,2600000,7,3.1,押2付3,是,齐全,合格,齐全,是,否,价格谈判,先锁佣金条款再安排客户带看
+P006,脱敏重庆杨家坪老店F,重庆,九龙坡区,杨家坪,2400,145000,8000,64,45,19,650000,4,1.8,押2付2,是,齐全,合格,不明,待确认,是,业主沟通中,确认剩余租期续签和特行状态
