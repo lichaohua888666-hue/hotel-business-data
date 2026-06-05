@@ -12,6 +12,8 @@ REQUIRED_FILES = [
     ROOT_DIR / "data_sample" / "customer_requirements_sample.csv",
     ROOT_DIR / "scripts" / "match_customers.py",
     ROOT_DIR / "scripts" / "analyze_projects.py",
+    ROOT_DIR / "scripts" / "commercial_estate_ai_system.py",
+    ROOT_DIR / "README.md",
 ]
 
 
